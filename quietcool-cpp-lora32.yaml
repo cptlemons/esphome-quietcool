@@ -50,7 +50,7 @@ substitutions:
   # over the air (see README / INSTALL.md), or once learned, compile the ID in
   # here to skip pairing on a fresh flash. Validated by the component: must be
   # 0 (learn mode) or a real ID beginning 0xCB.
-  quietcool_sender_id: "0"
+  quietcool_sender_id: "0xCB01BBB9"
 
   # Stable Home Assistant display-source aliases (same as the YAML build).
   display_indoor_entity: "sensor.quietcool_display_indoor"
